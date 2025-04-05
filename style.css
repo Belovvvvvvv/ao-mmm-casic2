@@ -1,0 +1,29 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+button {
+  background: #e91e63;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+.slot-result, .mine-result, .aviator-result {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #4caf50;
+}

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casino Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎰 Казино от Братишки 🎰</h1>
+    <div class="slots">
+      <button onclick="spinSlot()">Крутить слот</button>
+      <div class="slot-result" id="slotResult">Нажми кнопку</div>
+    </div>
+    <div class="mines">
+      <button onclick="revealMine()">Бахнуть мину</button>
+      <div class="mine-result" id="mineResult">Осторожно 👀</div>
+    </div>
+    <div class="aviator">
+      <button onclick="startAviator()">✈ Взлететь</button>
+      <div class="aviator-result" id="aviatorResult">Готов к полету</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
